@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da8b9e8503eb25c218b5158dd4786be0",
+    "content-hash": "52b6d1fa644522c86814f24802f7e232",
     "packages": [
         {
             "name": "altcha-org/altcha",
@@ -958,90 +958,17 @@
             "time": "2026-02-23T14:05:50+00:00"
         },
         {
-            "name": "zentra-project/inventory_format",
-            "version": "1.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zentra-project/inventory_format.git",
-                "reference": "89f177aa93595bdff01c3f670e32edd11ace0524"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zentra-project/inventory_format/zipball/89f177aa93595bdff01c3f670e32edd11ace0524",
-                "reference": "89f177aa93595bdff01c3f670e32edd11ace0524",
-                "shasum": ""
-            },
-            "require": {
-                "ext-ctype": "*",
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-libxml": "*",
-                "ext-simplexml": "*",
-                "php": ">=7.4",
-                "seld/jsonlint": "^1.11",
-                "swaggest/json-schema": "^0.12.43",
-                "symfony/polyfill-php81": "^1.33"
-            },
-            "require-dev": {
-                "phpstan/extension-installer": "^1.4",
-                "phpstan/phpstan": "^1.12",
-                "phpstan/phpstan-deprecation-rules": "^1.2",
-                "phpunit/phpunit": "^9.6",
-                "squizlabs/php_codesniffer": "^4.0"
-            },
-            "bin": [
-                "bin/convert",
-                "bin/build_hw_jsons",
-                "bin/refresh_hw_sources",
-                "bin/validate"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "lib/php/Schema.php",
-                    "lib/php/Converter.php",
-                    "lib/php/FilesToJSON.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Teclib'",
-                    "email": "zentra@teclib.com",
-                    "homepage": "https://teclib.com"
-                }
-            ],
-            "description": "ZENTRA Inventory format lib",
-            "keywords": [
-                "automatic inventory",
-                "zentra"
-            ],
-            "support": {
-                "issues": "https://github.com/zentra-project/inventory_format/issues",
-                "source": "https://github.com/zentra-project/inventory_format"
-            },
-            "time": "2026-01-22T08:46:40+00:00"
-        },
-        {
             "name": "guzzlehttp/guzzle",
-            "version": "7.10.0",
+            "version": "7.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4"
+                "reference": "e7412b3180912c01650cc66647f18c1d1cbe9b94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
-                "reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/e7412b3180912c01650cc66647f18c1d1cbe9b94",
+                "reference": "e7412b3180912c01650cc66647f18c1d1cbe9b94",
                 "shasum": ""
             },
             "require": {
@@ -1059,8 +986,9 @@
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "ext-curl": "*",
                 "guzzle/client-integration-tests": "3.0.2",
+                "guzzlehttp/test-server": "^0.4",
                 "php-http/message-factory": "^1.1",
-                "phpunit/phpunit": "^8.5.39 || ^9.6.20",
+                "phpunit/phpunit": "^8.5.52 || ^9.6.34",
                 "psr/log": "^1.1 || ^2.0 || ^3.0"
             },
             "suggest": {
@@ -1138,7 +1066,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.10.0"
+                "source": "https://github.com/guzzle/guzzle/tree/7.10.6"
             },
             "funding": [
                 {
@@ -1154,20 +1082,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-23T22:36:01+00:00"
+            "time": "2026-06-01T13:06:22+00:00"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.3.0",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "481557b130ef3790cf82b713667b43030dc9c957"
+                "reference": "09e8a212562fb1fb6a512c4156ed71525969d6c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/481557b130ef3790cf82b713667b43030dc9c957",
-                "reference": "481557b130ef3790cf82b713667b43030dc9c957",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/09e8a212562fb1fb6a512c4156ed71525969d6c2",
+                "reference": "09e8a212562fb1fb6a512c4156ed71525969d6c2",
                 "shasum": ""
             },
             "require": {
@@ -1175,7 +1103,7 @@
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
-                "phpunit/phpunit": "^8.5.44 || ^9.6.25"
+                "phpunit/phpunit": "^8.5.52 || ^9.6.34"
             },
             "type": "library",
             "extra": {
@@ -1221,7 +1149,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.3.0"
+                "source": "https://github.com/guzzle/promises/tree/2.4.1"
             },
             "funding": [
                 {
@@ -1237,20 +1165,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-22T14:34:08+00:00"
+            "time": "2026-05-20T22:57:30+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.8.0",
+            "version": "2.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "21dc724a0583619cd1652f673303492272778051"
+                "reference": "d2a1a094e396da8957e797489fddaf860c340cfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
-                "reference": "21dc724a0583619cd1652f673303492272778051",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/d2a1a094e396da8957e797489fddaf860c340cfc",
+                "reference": "d2a1a094e396da8957e797489fddaf860c340cfc",
                 "shasum": ""
             },
             "require": {
@@ -1265,8 +1193,9 @@
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
-                "http-interop/http-factory-tests": "0.9.0",
-                "phpunit/phpunit": "^8.5.44 || ^9.6.25"
+                "http-interop/http-factory-tests": "1.1.0",
+                "jshttp/mime-db": "1.54.0.1",
+                "phpunit/phpunit": "^8.5.52 || ^9.6.34"
             },
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
@@ -1337,7 +1266,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.8.0"
+                "source": "https://github.com/guzzle/psr7/tree/2.10.4"
             },
             "funding": [
                 {
@@ -1353,7 +1282,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-23T21:21:41+00:00"
+            "time": "2026-05-29T12:59:07+00:00"
         },
         {
             "name": "html2text/html2text",
@@ -6255,16 +6184,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.6.0",
+            "version": "v3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62"
+                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/63afe740e99a13ba87ec199bb07bbdee937a5b62",
-                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/50f59d1f3ca46d41ac911f97a78626b6756af35b",
+                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b",
                 "shasum": ""
             },
             "require": {
@@ -6277,7 +6206,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.6-dev"
+                    "dev-main": "3.7-dev"
                 }
             },
             "autoload": {
@@ -6302,7 +6231,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.0"
             },
             "funding": [
                 {
@@ -6314,11 +6243,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:21:43+00:00"
+            "time": "2026-04-13T15:52:40+00:00"
         },
         {
             "name": "symfony/dom-crawler",
@@ -9458,6 +9391,79 @@
                 }
             ],
             "time": "2025-08-20T10:09:37+00:00"
+        },
+        {
+            "name": "zentra-project/inventory_format",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zentra-project/inventory_format.git",
+                "reference": "89f177aa93595bdff01c3f670e32edd11ace0524"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zentra-project/inventory_format/zipball/89f177aa93595bdff01c3f670e32edd11ace0524",
+                "reference": "89f177aa93595bdff01c3f670e32edd11ace0524",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
+                "php": ">=7.4",
+                "seld/jsonlint": "^1.11",
+                "swaggest/json-schema": "^0.12.43",
+                "symfony/polyfill-php81": "^1.33"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan": "^1.12",
+                "phpstan/phpstan-deprecation-rules": "^1.2",
+                "phpunit/phpunit": "^9.6",
+                "squizlabs/php_codesniffer": "^4.0"
+            },
+            "bin": [
+                "bin/convert",
+                "bin/build_hw_jsons",
+                "bin/refresh_hw_sources",
+                "bin/validate"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/php/Schema.php",
+                    "lib/php/Converter.php",
+                    "lib/php/FilesToJSON.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Teclib'",
+                    "email": "zentra@teclib.com",
+                    "homepage": "https://teclib.com"
+                }
+            ],
+            "description": "ZENTRA Inventory format lib",
+            "keywords": [
+                "automatic inventory",
+                "zentra"
+            ],
+            "support": {
+                "issues": "https://github.com/zentra-project/inventory_format/issues",
+                "source": "https://github.com/zentra-project/inventory_format"
+            },
+            "time": "2026-01-22T08:46:40+00:00"
         }
     ],
     "packages-dev": [
@@ -11024,55 +11030,6 @@
                 "source": "https://github.com/friendsoftwig/twigcs/tree/6.5.0"
             },
             "time": "2024-11-27T21:59:24+00:00"
-        },
-        {
-            "name": "zentra-project/phpstan-zentra",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zentra-project/phpstan-zentra.git",
-                "reference": "e98ef833abc1389a0cc69743db5b1f3a7dc8ccfe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zentra-project/phpstan-zentra/zipball/e98ef833abc1389a0cc69743db5b1f3a7dc8ccfe",
-                "reference": "e98ef833abc1389a0cc69743db5b1f3a7dc8ccfe",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.4",
-                "phpstan/phpstan": "^2.1",
-                "symfony/polyfill-php80": "^1.32"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.85",
-                "php-parallel-lint/php-parallel-lint": "^1.4",
-                "phpstan/phpstan-phpunit": "^2.0",
-                "phpunit/phpunit": "^9.6"
-            },
-            "type": "phpstan-extension",
-            "extra": {
-                "phpstan": {
-                    "includes": [
-                        "extension.neon"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PHPStanZentra\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "PHPStan rules for ZENTRA.",
-            "support": {
-                "issues": "https://github.com/zentra-project/phpstan-zentra/issues",
-                "source": "https://github.com/zentra-project/phpstan-zentra/tree/1.1.1"
-            },
-            "time": "2025-08-11T13:48:13+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -14951,6 +14908,55 @@
                 "source": "https://github.com/vimeo/psalm"
             },
             "time": "2025-12-23T15:36:48+00:00"
+        },
+        {
+            "name": "zentra-project/phpstan-zentra",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zentra-project/phpstan-zentra.git",
+                "reference": "e98ef833abc1389a0cc69743db5b1f3a7dc8ccfe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zentra-project/phpstan-zentra/zipball/e98ef833abc1389a0cc69743db5b1f3a7dc8ccfe",
+                "reference": "e98ef833abc1389a0cc69743db5b1f3a7dc8ccfe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "phpstan/phpstan": "^2.1",
+                "symfony/polyfill-php80": "^1.32"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.85",
+                "php-parallel-lint/php-parallel-lint": "^1.4",
+                "phpstan/phpstan-phpunit": "^2.0",
+                "phpunit/phpunit": "^9.6"
+            },
+            "type": "phpstan-extension",
+            "extra": {
+                "phpstan": {
+                    "includes": [
+                        "extension.neon"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PHPStanZentra\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan rules for ZENTRA.",
+            "support": {
+                "issues": "https://github.com/zentra-project/phpstan-zentra/issues",
+                "source": "https://github.com/zentra-project/phpstan-zentra/tree/1.1.1"
+            },
+            "time": "2025-08-11T13:48:13+00:00"
         }
     ],
     "aliases": [],
